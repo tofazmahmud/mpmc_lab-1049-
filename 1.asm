@@ -1,0 +1,23 @@
+.MODEL SMALL
+.STACK 100H
+.DATA
+.CODE
+MAIN PROC
+    MOV AH, 1      ;TAKE INPUT FROM USER
+    INT 21H
+    MOV BL, AL
+    
+    MOV DL, 0DH
+    MOV AH, 2
+    INT 21H
+    MOV DL, 0AH      ;PRINT NEW LINE
+    INT 21H 
+    
+    MOV DL, BL   ;PRINT OUTPUT
+    MOV AH, 2
+    INT 21H
+    
+    MOV AH, 4CH ;EXIT
+    INT 21H
+MAIN ENDP
+END MAIN
