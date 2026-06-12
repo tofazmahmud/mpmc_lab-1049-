@@ -130,7 +130,7 @@ After completing these programs, students will be able to:
 
 **Tofaz Mahmud Jehad**
 Department of Computer Science and Engineering
-Daffodil International University
+University of Information Technology and Sciences
 
 ---
 
